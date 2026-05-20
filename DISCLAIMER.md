@@ -1,16 +1,17 @@
 # Disclaimer
 
-**Project:** WOLF TRACK API · Silent Wolf Engine  
-**Owner:** SILENT WOLF · WOLF TECH  
-**GitHub:** [https://github.com/WOLFTECH-254/](https://github.com/WOLFTECH-254/)
+**Project:** wolfXspotify-API  
+**Owner:** Silent Wolf · WOLF TECH  
+**GitHub:** [https://github.com/WOLFTECH-254](https://github.com/WOLFTECH-254)  
+**Live API:** [https://spotify.xwolf.space](https://spotify.xwolf.space)
 
 ---
 
 ## No Affiliation with Spotify
 
-WOLF TRACK API is an **independent, unofficial project**. It is not affiliated with, endorsed by, sponsored by, or in any way connected to **Spotify AB**, its subsidiaries, or affiliates.
+**wolfXspotify-API** is an **independent, unofficial project**. It is not affiliated with, endorsed by, sponsored by, or in any way connected to **Spotify AB**, its subsidiaries, or affiliates.
 
-The project name "WOLF TRACK" is distinct from "Spotify" and is used solely as a project identifier for this open-source API gateway.
+The project name "wolfXspotify-API" is distinct from "Spotify" and is used solely as a project identifier for this open-source API gateway.
 
 ---
 
@@ -37,7 +38,7 @@ This software is provided **"as is"** without warranty of any kind. WOLF TECH ma
 
 ## Use at Your Own Risk
 
-Use of this API is entirely at your own risk. WOLF TECH and SILENT WOLF shall not be held liable for any damages, losses, or legal issues arising from the use of this service, including but not limited to:
+Use of this API is entirely at your own risk. WOLF TECH and Silent Wolf shall not be held liable for any damages, losses, or legal issues arising from the use of this service, including but not limited to:
 
 - Violations of Spotify's Terms of Service by end users
 - Data inaccuracies or service outages
@@ -63,10 +64,10 @@ This disclaimer may be updated at any time. The latest version will always be av
 
 ## Contact
 
-- **GitHub:** [https://github.com/WOLFTECH-254/](https://github.com/WOLFTECH-254/)
-- **Maintainer:** SILENT WOLF · WOLF TECH
+- **GitHub:** [https://github.com/WOLFTECH-254](https://github.com/WOLFTECH-254)
+- **Maintainer:** Silent Wolf · WOLF TECH
 - **Location:** Kenya 🇰🇪
 
 ---
 
-© 2026 WOLF TECH · SILENT WOLF — All rights reserved.
+© 2026 WOLF TECH · Silent Wolf — All rights reserved.

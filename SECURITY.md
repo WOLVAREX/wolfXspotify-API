@@ -1,9 +1,9 @@
 # Security Policy
 
 **Project:** wolfXspotify-API  
-**Maintainer:** SILENT WOLF · WOLF TECH  
+**Maintainer:** Silent Wolf · WOLF TECH  
 **GitHub:** [https://github.com/WOLFTECH-254](https://github.com/WOLFTECH-254)  
-**Project URL:** [https://spotify.xwolf.space](https://spotify.xwolf.space)
+**Live API:** [https://spotify.xwolf.space](https://spotify.xwolf.space)
 
 ---
 
@@ -11,8 +11,8 @@
 
 | Version | Supported |
 |---------|-----------|
-| 1.x (current) | ✅ Active |
-| 2.x (future) | ⏳ Planned |
+| 2.x (current) | ✅ Active |
+| 1.x | ⚠️ Security fixes only |
 
 ---
 
@@ -21,7 +21,7 @@
 If you discover a security vulnerability in **wolfXspotify-API**, please **do not** open a public GitHub issue. Instead, report it responsibly using one of the following methods:
 
 1. **GitHub Private Advisory** — Open a [Security Advisory](https://github.com/WOLFTECH-254/wolfXspotify-API/security/advisories/new) on this repository
-2. **Direct contact** — Reach out via GitHub Issues (as a private draft) or create an issue with the label `security`
+2. **GitHub Issues** — Create an issue with the label `security` (will be kept private / handled discreetly)
 
 Please include:
 - A clear description of the vulnerability
@@ -71,13 +71,13 @@ We appreciate responsible disclosure and will acknowledge your contribution in t
 When using **wolfXspotify-API** in your applications:
 
 1. **Do not expose tokens** — Never log or expose the access token returned by `/api/token` to end users if you're using it as a backend proxy
-2. **Cache responsibly** — Implement proper token caching as shown in the documentation
-3. **Use HTTPS** — Always communicate with the API over HTTPS (enforced by default)
+2. **Cache responsibly** — Implement proper token caching as shown in the README
+3. **Use HTTPS** — Always communicate with the API over HTTPS (enforced on the live deployment)
 4. **Validate inputs** — Sanitize any user inputs before passing them to the API
 
 ---
 
-## Environment Variables
+## Environment Variables (Self-Hosted)
 
 If self-hosting, ensure the following are properly secured:
 
@@ -91,10 +91,10 @@ If self-hosting, ensure the following are properly secured:
 
 ## Contact
 
-For security-related inquiries only, you can reach out via:
+For security-related inquiries only:
 - **GitHub Security Advisory** (preferred)
-- **GitHub Issues** with `security` label (will be kept private)
+- **GitHub Issues** with `security` label
 
 ---
 
-© 2026 WOLF TECH · SILENT WOLF — All rights reserved.
+© 2026 WOLF TECH · Silent Wolf — All rights reserved.
