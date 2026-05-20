@@ -232,7 +232,7 @@ Create a `.env` file (see `.env.example`):
 |----------|---------|-------------|
 | `PORT` | `5000` | Port to listen on |
 | `REFRESH_INTERVAL_MINUTES` | `30` | Token auto-refresh interval |
-| `GITHUB_TOKEN` | — | Optional: persist token to GitHub between restarts |
+| `GITHUB_TOKEN` | — | Optional: GitHub PAT with **`repo` scope only** — used to commit `tokens.json` |
 | `GITHUB_REPO` | — | Optional: target repo for token storage (e.g. `WOLFTECH-254/wolfXspotify-API`) |
 | `GITHUB_FILE_PATH` | `tokens.json` | Optional: file path within the repo |
 
@@ -267,6 +267,8 @@ crontab -e
 ```
 
 This commits a fresh `tokens.json` to your configured `GITHUB_REPO` every 30 minutes — which is why a commit is always visible as "30 minutes ago" on GitHub. Requires `GITHUB_TOKEN` and `GITHUB_REPO` to be set in `.env`.
+
+> **Token scope:** Generate a classic PAT at GitHub → Settings → Developer settings → Personal access tokens → Tokens (classic). Enable the **`repo`** scope only — that is the only permission needed to push a single file to the repository.
 
 ---
 

@@ -83,7 +83,7 @@ If self-hosting, ensure the following are properly secured:
 
 | Variable | Security Notes |
 |----------|----------------|
-| `GITHUB_TOKEN` | Keep private — store in `.env` and never commit to version control |
+| `GITHUB_TOKEN` | Keep private — store in `.env` and never commit to version control. Needs **`repo` scope only** (classic PAT) — no admin, no webhook, no other permissions |
 | `GITHUB_REPO` | Only necessary if using GitHub token persistence |
 | `PORT` | No special security considerations |
 
