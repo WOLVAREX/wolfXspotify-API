@@ -35,7 +35,7 @@ Built and maintained by **Silent Wolf** under **WOLF TECH**.
 | **Name** | Silent Wolf |
 | **Organisation** | WOLF TECH |
 | **Country** | Kenya 🇰🇪 |
-| **GitHub** | [@WOLFTECH-254](https://github.com/WOLFTECH-254) |
+| **GitHub** | [@WOLVAREX](https://github.com/WOLVAREX) |
 | **Role** | Founder & Lead Developer |
 
 ---
